@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "lib": ["ES2021"],
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "experimentalDecorators": true,
+    "target": "ES2021",
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "declaration": true,
+  },
+  "include": ["./src"],
+  "exclude": ["./node_modules", "scripts", "**/__tests__/**" , "**/*.test.*",]
+}
